@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "validates_guatemala_identity/version"
+require 'active_model'
+require 'validates_guatemala_identity/guatemala_identity_validator'
+require 'validates_guatemala_identity/require_a_valid_guatemala_identity_matcher' if defined?(Shoulda)
 
 module ValidatesGuatemalaIdentity
-  class Error < StandardError; end
-  # Your code goes here...
+  autoload :GuatemalaIdentity, 'validates_guatemala_identity/guatemala_identity'
 end

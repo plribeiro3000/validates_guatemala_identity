@@ -1,6 +1,8 @@
 # ValidatesGuatemalaIdentity
 
 This projects aims to validate Guatemala Identity (Documento Personal de Identificación).
+The Regex part of this project was based on [this page](https://learn.sayari.com/interpreting-guatemalan-national-id-numbers/) and the
+state and city numbers on [this page](https://www.mineduc.gob.gt/DIGEESP/documents/adecuacionesCurriculares/Documentos%20de%20Apoyo/C%C3%B3digos%20Departamentos-Municipios-Idiomas.pdf)
 
 ## Installation
 
